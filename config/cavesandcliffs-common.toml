@@ -1,7 +1,7 @@
 
 ["Gameplay Settings"]
-	dropRawOres = true
-	monstersSpawnOnlyInTotalDarkness = true
+	dropRawOres = false
+	monstersSpawnOnlyInTotalDarkness = false
 
 ["Ore Generation Settings"]
 	generateCopperOre = true
