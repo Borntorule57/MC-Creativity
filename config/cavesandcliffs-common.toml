@@ -4,7 +4,7 @@
 	monstersSpawnOnlyInTotalDarkness = false
 
 ["Ore Generation Settings"]
-	generateCopperOre = true
+	generateCopperOre = false
 	generateTuffBlobs = true
 	generateDeepslateBlobs = true
 
