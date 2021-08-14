@@ -1,4 +1,5 @@
-
+[Version 0.02] -- 8/14/2021
+Set all inital configs (Not gonna list all of them, too many to count. See logs for details if needed)
 
 
 [Version 0.01] -- 8.11.2021
