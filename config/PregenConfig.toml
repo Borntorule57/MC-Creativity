@@ -2,7 +2,7 @@
 [general]
 	#Defines how many Dimensions can be generated at the same time, this is due to thread limitations mcs worldgen has. 0 => Single Dimension, 1 => Up to 3 dimensions (Ensures each dimension has at least 2 threads), 2 => Up to 5 Dimensions (Dimensions will fight over CPU Threads due to limitations)
 	#Range: 0 ~ 2
-	"Threading Rule" = 2
+	"Threading Rule" = 0
 	#Changes the World Generator to process Multiple chunks at the same time (Multithreading) to use more resources if present, may cause crashes with mods
 	Multithread-Hack = false
 	#Defines if the Improved Command Arguments should be used on Command Creation. If enabled mod is required on client
@@ -11,7 +11,7 @@
 	"Disable ChunkSyncOverride" = false
 	#Defines how many Players have to be online for the Processor to Auto Pause, -1 = Disabled. It is Inclusive 2 = Allows 1 Player
 	#Range: > -1
-	"Player Limit" = -1
+	"Player Limit" = 1
 	#Defines how many milliseconds the Chunk Deleter gets per tick
 	#Range: 1 ~ 1000
 	"Deletion Time" = 10
@@ -24,7 +24,7 @@
 
 	[client.pregen-overlay]
 		#Defines if the Pregen Overlay should be enabled
-		pregen-overlay = true
+		pregen-overlay = false
 		#Defines the Horizontal Alignment of the UI, left to right
 		#Allowed Values: START, CENTER, END
 		horizontal-alignment = "START"
@@ -37,7 +37,7 @@
 
 	[client.profiler-overlay]
 		#Defines if the Profiler Overlay should be enabled
-		profiler-overlay = true
+		profiler-overlay = false
 		#Defines the Horizontal Alignment of the UI, left to right
 		#Allowed Values: START, CENTER, END
 		horizontal-alignment = "START"

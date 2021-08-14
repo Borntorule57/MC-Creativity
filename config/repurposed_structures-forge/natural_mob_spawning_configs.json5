@@ -341,6 +341,13 @@
         "minGroupSize": 2,
         "maxGroupSize": 4,
         "logErrorIfNotFound": true
+      },
+      {
+        "type": "minecraft:endermite",
+        "weight": 100,
+        "minGroupSize": 2,
+        "maxGroupSize": 4,
+        "logErrorIfNotFound": true
       }
     ],
     "repurposed_structures:shipwreck_warped": [
@@ -370,5 +377,5 @@
 
 
 // for internal use only. Do not change this.
-  "configVersion": 1
+  "configVersion": 2
 }

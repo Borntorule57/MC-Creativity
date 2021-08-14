@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
@@ -125,11 +125,11 @@
 	Thatch = true
 	"Tie Leads To Fences" = true
 	Turf = true
-	"Variant Bookshelves" = true
-	"Variant Chests" = true
-	"Variant Ladders" = true
-	"Vertical Planks" = true
-	"Vertical Slabs" = true
+	"Variant Bookshelves" = false
+	"Variant Chests" = false
+	"Variant Ladders" = false
+	"Vertical Planks" = false
+	"Vertical Slabs" = false
 	"Wooden Posts" = true
 
 	[building.celebratory_lamps]
@@ -215,7 +215,7 @@
 		"Change Names" = true
 
 	[building.variant_chests]
-		"Replace Worldgen Chests" = true
+		"Replace Worldgen Chests" = false
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
@@ -228,7 +228,7 @@
 	"Chests In Boats" = true
 	"Easy Transfering" = true
 	"Hotbar Changer" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Right Click Armor" = true
 	"Shulker Box Right Click" = true
@@ -356,10 +356,10 @@
 	"Double Door Opening" = true
 	"Dragon Scales" = true
 	Emotes = true
-	"Enhanced Ladders" = true
+	"Enhanced Ladders" = false
 	"Glass Shard" = true
 	"Hoe Harvesting" = true
-	"Improved Sleeping" = true
+	"Improved Sleeping" = false
 	"Infinity Bucket" = true
 	"Lava Bucket As Trash" = true
 	"Lock Rotation" = true
@@ -495,7 +495,7 @@
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
 	Crevices = true
-	Deepslate = true
+	Deepslate = false
 	"Fairy Rings" = true
 	"Mega Caves" = true
 	"Monster Box" = true
@@ -1926,12 +1926,12 @@
 		"Shiny Animal Chance" = 2048
 
 [oddities]
-	Backpack = true
+	Backpack = false
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them

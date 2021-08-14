@@ -202,7 +202,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=true
+    B:RingoftheSevenCursesEnabled=false
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
@@ -424,7 +424,7 @@
     I:HunterGuideSynergyDamageReduction=50
 
     # Inverts the Shift behaviour of Magnetic Ring and Dislocation Ring. [default: false, synchronized: yes]
-    B:MagnetRingInvertShift=false
+    B:MagnetRingInvertShift=true
 
     # The radius in which Magnetic Ring will attract items. [range: 1 ~ 256, default: 8, synchronized: yes]
     I:MagnetRingRange=8
