@@ -94,7 +94,7 @@
     B:EnderRodEnabled=true
 
     # Whether or not Enigmatic Amulet should be enabled. [default: true, synchronized: yes]
-    B:EnigmaticAmuletEnabled=false
+    B:EnigmaticAmuletEnabled=true
 
     # Whether or not Essence of Raging Life should be enabled. [default: true, synchronized: yes]
     B:EssenceofRagingLifeEnabled=true
@@ -424,7 +424,7 @@
     I:HunterGuideSynergyDamageReduction=50
 
     # Inverts the Shift behaviour of Magnetic Ring and Dislocation Ring. [default: false, synchronized: yes]
-    B:MagnetRingInvertShift=false
+    B:MagnetRingInvertShift=true
 
     # The radius in which Magnetic Ring will attract items. [range: 1 ~ 256, default: 8, synchronized: yes]
     I:MagnetRingRange=8
