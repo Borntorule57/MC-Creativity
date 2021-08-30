@@ -1,3 +1,22 @@
+[Version 1.1] -- 8/30/2021
+Removed Performant
+Removed Better Biome Blend (not needed)
+Added Halogen (this test is semi-experimental, please disable if you run into any issues)
+Added InControl (no configs yet, still WIP)
+Added EzZoom (Optifine not compatible, so using this for zoom effects)
+
+Updated mods
+Adjusted Alex's Mobs configs to hopefully fix some mob spawn issues
+Removed Environmental's limit to farm animal spawns
+
+[Version 1.0]
+Disabled Advanced Mining Dimension
+Disabled Terraforged
+
+[Version 0.03] -- 8/15/2021
+Added Alex's Mobs
+Added Alex's Mobs Battle Music
+
 [Version 0.02] -- 8/14/2021
 Set all inital configs (Not gonna list all of them, too many to count. See logs for details if needed)
 

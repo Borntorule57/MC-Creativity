@@ -30,21 +30,21 @@
 	ModNameSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tooltips (prefix: #)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TooltipSearchMode = "ENABLED"
+	TooltipSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	TagSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	CreativeTabSearchMode = "DISABLED"
+	CreativeTabSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ColorSearchMode = "DISABLED"
+	ColorSearchMode = "REQUIRE_PREFIX"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "DISABLED"
+	ResourceIdSearchMode = "REQUIRE_PREFIX"
 	#Search advanced tooltips (visible with F3+H)
-	SearchAdvancedTooltips = false
+	SearchAdvancedTooltips = true
 
 [modname]
 	#Formatting for mod name tooltip
