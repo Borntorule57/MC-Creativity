@@ -1,3 +1,13 @@
+[Version 1.3]
+MAGIC ARRIVES
+Added Astral Sorcery
+Added Eidolon
+Added Witchery:Rewitched
+Added Explorer's Compass [Currently set to only locate Villages, Outposts, Monuments, and the new locations from Astral Sorcery and Eidolon]
+Added CarryOn
+Switched default DoubleSlabs setting to Item mode
+Updated All Mods
+
 [Version 1.2] -- 9/17/2021
 Updated all mods
 Disabled Halogen worldgen changes

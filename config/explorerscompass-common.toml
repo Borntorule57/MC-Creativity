@@ -1,0 +1,15 @@
+
+[General]
+	#Allows a player to teleport to a located structure when in creative mode, opped, or in cheat mode.
+	allowTeleport = true
+	#Allows players to view the precise coordinates and distance of a located structure on the HUD, rather than relying on the direction the compass is pointing.
+	displayCoordinates = true
+	#The maximum radius that will be searched for a structure. Raising this value will increase search accuracy but will potentially make the process more resource intensive.
+	#Range: 0 ~ 1000000
+	maxRadius = 5000
+	#A list of structures that the compass will not be able to search for, specified by resource location. The wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex: ["minecraft:stronghold", "minecraft:endcity", "minecraft:*village*"]
+	structureBlacklist = ["minecraft:stronghold", "minecraft:endcity", "minecraft:bastion_remnant", "betterdungeons:*", "betterendforge:*", "bettermineshafts:*", "betterstrongholds:*", "cobbler:shulker_factory", "minecraft:buried_treasure", "cavesandcliffs:mineshaft", "minecraft:desert_pyramid", "dungeons_plus:*", "minecraft:fortress", "minecraft:igloo", "infernalexp:*", "minecraft:mansion", "minecraft:mineshaft", "minecraft:jungle_pyramid", "outer_end:*", "minecraft:nether_fossil", "minecraft:ocean_ruin", "paraglider:*", "quark:big_dungeon", "repurposed_structures:bastion_underground", "repurposed_structures:city_nether", "repurposed_structures:fortress_jungle", "repurposed_structures:igloo*", "repurposed_structures:mansion*", "repurposed_structures:mineshaft*", "repurposed_structures:pyramid*", "repurposed_structures:ruin*", "repurposed_structures:shipwreck*", "repurposed_structures:stronghold*", "repurposed_structures:temple*", "repurposed_structures:witch_hut*", "minecraft:ruined_portal", "minecraft:shipwreck", "minecraft:swamp_hut", "towers_of_the_wild:*", "atmospheric:*", "autumnity:*", "supplementaries:*"]
+	#The maximum number of samples to be taken when searching for a structure.
+	#Range: 0 ~ 1000000
+	maxSamples = 50000
+
