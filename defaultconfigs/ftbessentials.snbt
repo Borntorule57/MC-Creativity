@@ -34,6 +34,12 @@
 	
 	# Miscellaneous features and utilities
 	misc: {
+		# Allows users to access their ender chest, as well as admins to manage other players' ender chests.
+		enderchest: {
+			# Default: true
+			enabled: true
+		}
+		
 		# Allows users to set a custom hat as their head item by using a command
 		hat: {
 			# Default: true
