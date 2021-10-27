@@ -10,4 +10,6 @@
 	#Enables button in backpack gui, which allows to empty tank
 	enableEmptyTankButton = true
 	enableSleepingBagSpawnPoint = false
+	#Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
+	backpackForceDeathPlace = false
 

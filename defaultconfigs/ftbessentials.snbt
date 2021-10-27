@@ -166,6 +166,12 @@
 			enabled: true
 		}
 		
+		# Allows admins to teleport to dimension
+		tpx: {
+			# Default: true
+			enabled: true
+		}
+		
 		# Allows admins to create 'warps', which are fixed points in the world that users may teleport to using /warp
 		warp: {
 			# Cooldown between /warp commands (in seconds)
