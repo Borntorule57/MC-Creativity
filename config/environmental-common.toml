@@ -24,7 +24,7 @@
 
 	[items.healers_pouch]
 		#Structures that can spawn mobs wearing a Healer's Pouch
-		"Healer's Pouch structures" = ["minecraft:mineshaft", "minecraft:stronghold"]
+		"Healer's Pouch structures" = ["minecraft:mineshaft", "minecraft:stronghold", "betterstrongholds:stronghold", "bettermineshafts:mineshaft", "repurposed_structures:mineshaft_birch", "repurposed_structures:mineshaft_crimson", "repurposed_structures:mineshaft_dark_forest", "repurposed_structures:mineshaft_desert", "repurposed_structures:mineshaft_end", "repurposed_structures:mineshaft_icy", "repurposed_structures:mineshaft_jungle", "repurposed_structures:mineshaft_nether", "repurposed_structures:mineshaft_ocean", "repurposed_structures:mineshaft_savanna", "repurposed_structures:mineshaft_stone", "repurposed_structures:mineshaft_swamp", "repurposed_structures:mineshaft_taiga", "repurposed_structures:mineshaft_warped"]
 
 [entities]
 	#Make farm animals spawn in less biomes to allow new mobs to take their place and diversify biome spawns
